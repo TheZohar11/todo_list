@@ -1,0 +1,86 @@
+div {
+  width: 70vw; /* Sets the width of the div to 70% of the viewport width */
+  background-color: grey; /* Background color of the div */
+  color: white; /* Text color inside the div */
+  padding: 12px; /* Adds padding inside the div */
+  border-radius: 12px; /* Rounds the corners of the div */
+  margin: auto; /* Centers the div horizontally */
+  text-align: center; /* Aligns the text to the center */
+}
+
+ul {
+  list-style-type: none; /* Removes bullet points from the list items */
+  padding: 0; /* Removes default padding */
+  margin: 24px auto; /* Adds margin to the top and bottom, and centers the ul */
+}
+
+li {
+  display: flex; /* Uses flexbox layout for list items */
+  align-items: center; /* Vertically aligns the content in the center */
+  justify-content: space-between; /* Distributes the items evenly with space between them */
+  padding: 0 12px; /* Adds horizontal padding inside the list items */
+  border: 2px solid black; /* Adds a black border around each list item */
+  background-color: #00557f; /* Background color for the list items */
+  border-radius: 5px; /* Rounds the corners of the list items */
+  margin: 5px; /* Adds margin around each list item */
+}
+
+h1 {
+  font-size: 36px; /* Sets the font size of the h1 heading */
+}
+
+h2 {
+  margin-right: 24px; /* Adds right margin to h2 elements */
+}
+
+input {
+  font-size: 24px; /* Sets the font size of the input text */
+  padding: 8px 8px; /* Adds padding inside the input */
+  outline: none; /* Removes the default outline on focus */
+  width: 50%; /* Sets the input width to 50% of its container */
+}
+
+#add-button {
+  font-size: 24px; /* Sets the font size of the button text */
+  padding: 8px 12px; /* Adds padding inside the button */
+  border-radius: 8px; /* Rounds the corners of the button */
+  background-color: lightblue; /* Sets the background color of the button */
+  transition: 0.5s; /* Adds a transition effect to the button */
+  cursor: pointer; /* Changes the cursor to a pointer when hovered */
+}
+
+#add-button:disabled {
+  background-color: revert; /* Reverts to default background color when disabled */
+  cursor: default; /* Changes the cursor to default when the button is disabled */
+}
+
+.wrapper {
+  width: 70vw; /* Sets the width of the wrapper to 70% of the viewport width */
+  margin: auto; /* Centers the wrapper horizontally */
+  text-align: center; /* Aligns text to the center */
+  background: grey; /* Background color of the wrapper */
+  color: white; /* Text color inside the wrapper */
+}
+
+.delete-button {
+  background: none; /* Removes the background of the delete button */
+  color: white; /* Sets the text color of the delete button */
+  border: 1px solid transparent; /* Sets a transparent border initially */
+  border-radius: 100%; /* Rounds the delete button to a circle */
+  height: 24px; /* Sets the height of the delete button */
+  width: 24px; /* Sets the width of the delete button */
+  font-size: 14px; /* Sets the font size for the delete button */
+  font-weight: bold; /* Makes the delete button text bold */
+  padding: 0; /* Removes padding inside the delete button */
+  transition: 0.5s; /* Adds a transition effect to the delete button */
+  cursor: pointer; /* Changes the cursor to pointer on hover */
+}
+
+.delete-button:hover {
+  border-color: white; /* Changes the border color to white on hover */
+  transform: scale(1.2); /* Enlarges the button slightly when hovered */
+}
+.completed {
+  text-decoration: line-through;
+  color: rgb(237, 182, 184);
+}
